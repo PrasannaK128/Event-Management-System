@@ -19,10 +19,3 @@ model User {
   createdAt DateTime @default(now())
 }
 
-model Manager {
-
-id        Int      @id @default(autoincrement())
-  name      String
-  email     String   @unique
-  createdAt DateTime @default(now())
-}
